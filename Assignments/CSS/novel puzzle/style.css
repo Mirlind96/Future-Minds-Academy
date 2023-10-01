@@ -1,0 +1,23 @@
+body {
+    font-family: Georgia,  serif;
+}
+
+.chapter {
+max-width: 600px;
+margin: 20px auto;
+}
+
+.chapter-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+
+}
+.first-world {
+    text-transform: uppercase;
+}
+.first-letter {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-right: 5px;
+}
