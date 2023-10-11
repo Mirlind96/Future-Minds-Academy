@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Personal Portfolio</h1>
     <hr>
+    <h1>Personal Portfolio</h1>
+
     <header>
         <nav>
             <ul>
@@ -17,28 +21,42 @@
             </ul>
         </nav>
     </header>
-
+    <hr>
     <main>
-        <div id="content">
-            <hr/>
-            <img src="images/Mirlind.JPG" width="300"/>
-            <p>Mirlind Zymberi, i lindur më 28 maj 1996, <br>një individ i përkushtuar dhe me potencial të madh, jeton në qytetin<br> e Gjilanit dhe është një pjesë e rëndësishme e kësaj komuniteti.<br> Ai/ajo është një person që ka shfaqur një angazhim të madh<br> ndaj zhvillimit personal dhe profesional.
+        <div class="content-container">
 
-                <br>Gjilani, një qytet i bukur në Kosovë, është një vend i pasur me histori dhe kulturë.<br> Përveçse është një qytet i rëndësishëm, ai është një mjedis ku <br>ndeshen njerëz me talent dhe pasion për të arritur qëllimet e tyre.</p>
+            <img src="images/Mirlind.JPG" width="300" />
+            <p>Mirlind Zymberi, i lindur më 28 maj 1996, <br>një individ i përkushtuar dhe me potencial të madh, jeton
+                në qytetin<br> e Gjilanit dhe është një pjesë e rëndësishme e kësaj komuniteti.<br> Ai/ajo është një
+                person që ka shfaqur një angazhim të madh<br> ndaj zhvillimit personal dhe profesional.
 
+                <br>Gjilani, një qytet i bukur në Kosovë, është një vend i pasur me histori dhe kulturë.<br> Përveçse
+                është një qytet i rëndësishëm, ai është një mjedis ku <br>ndeshen njerëz me talent dhe pasion për të
+                arritur qëllimet e tyre.
+            </p>
+        </div>
+        <div class="education-container">
             <h2>Education</h2>
-            <ul>
+            <ul class="timeline">
                 <li>Primary School:
                     <ul>
                         <li><strong>Abaz Ajeti</strong>(2003-2012)</li>
-                        <li><strong>Marin Barleti</strong>(2012-2015)</li>
+
                     </ul>
                 </li>
-                <li>High School</li>
-                <li>University</li>
             </ul>
+            <ul class="timeline">
+                <li>Primary School:
+                    <ul>
+                        <li><strong>Marin Barleti</strong>(2012-2015)</li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <section class="my_skills">
             <h3>My Skills</h3>
-            <table border="1" width="500">
+            <table border="1" width="500" class="content">
                 <tr>
                     <th>#</th>
                     <th>English Language</th>
@@ -58,14 +76,16 @@
                     <td>7.5</td>
                 </tr>
             </table>
+        </section>
+        <article class="projects">
             <h4 id="my_projects">My Projects</h4>
-            <article>
-                <ol>
-                    <li>Personal Financial Tracking Platform <a href="projects.html#project_1">Read more</a></li>
-                    <li>Simple Jumping Games <a href="projects.html#project_2">Read more</a></li>
-                    <li>Chatting Application <a href="projects.html#project_3">Read more</a></li>
-                </ol>
-            </article>
+
+            <ol>
+                <li>Personal Financial Tracking Platform <a href="projects.html#project_1">Read more</a></li>
+                <li>Simple Jumping Games <a href="projects.html#project_2">Read more</a></li>
+                <li>Chatting Application <a href="projects.html#project_3">Read more</a></li>
+            </ol>
+        </article>
         </div>
     </main>
 
@@ -75,4 +95,5 @@
         </small>
     </footer>
 </body>
+
 </html>
