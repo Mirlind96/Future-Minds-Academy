@@ -1,0 +1,109 @@
+body {
+    background-image: url("images/background_photo.jpg");
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline #000;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 50;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #1d06e6;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.project-box {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(4, 136, 136);
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.back-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+.project {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(4, 136, 136);
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project_1 {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(4, 136, 136);
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+footer:hover {
+    background-color: rgb(4, 136, 136);
+}

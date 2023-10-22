@@ -1,0 +1,126 @@
+body{
+    background-image: url("images/background_photo.jpg");
+    cursor: -webkit-grab; 
+    cursor: grab;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline #000;
+}
+nav {
+    text-align: center; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 50;
+    display: flex; 
+    justify-content: center; 
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+}
+
+nav a:hover {
+    color:white;
+    background-color: #1d06e6; 
+}
+
+article {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+form:hover {
+    background-color: #e0e0e0;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #555;
+}
+aside h2 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+aside h2:hover {
+    background-color: #555;
+}
+aside a:hover ion-icon {
+    color: #555;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+div a {
+    margin: 0 10px;
+}
+ion-icon {
+    font-size: 36px;
+}
+
+
+div a:hover {
+    filter: brightness(1.2);
+}
+footer{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+footer:hover {
+    background-color: #555;
+}
+
